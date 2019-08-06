@@ -39,7 +39,7 @@ def main():
         mA_train,mA_vali =  modelA.train(epochs = 45)
 
         test_score_total = []
-        plt.figure(figsize=(10,10))
+        
         for j in range(30):
             test_score = []
             for i in range(12):
